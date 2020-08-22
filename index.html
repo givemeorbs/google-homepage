@@ -1,8 +1,106 @@
 <!DOCTYPE html>
-<header></header>>
+<style>
+    body {
+        background: white;
+    }
+
+    footer{   
+        font-size: 13px;
+        justify-self: bottom;
+        padding-bottom: 5px;
+        background-color: #f2f2f2;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+
+    .footer{
+        list-style-type: none;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    li {
+        float: left;
+        padding: 12px;
+    }
+
+    li:hover{
+        text-decoration-line: underline;
+    }
+
+    a {
+        color: #57574f;
+        text-decoration: none;
+    }
+
+    .googlelogo {
+        display: block;
+        margin: auto;
+        padding-top: 200px;
+        padding-bottom: 20px;
+    }
+
+    .searchbar {
+        display: flex;
+        width: 450px;
+        height: 30px;
+        margin: auto;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+
+    .searchbar input{
+        border: none;
+        width: 100px;
+        margin-left:25px;
+    }
+
+    #buttons {
+        display: block;
+        text-align: center;
+        padding-top: 25px;
+    }
+</style>
+<header>
+    <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Store">Store</a></li>
+        <li style="float:right"><a href="#Images">Images</a></li>
+        <li style="float:right"><a href="#Gmail">Gmail</a></li>
+        
+    </ul>   
+</header>
 <body>
-    <p>Yo</p>
-
-
-
+    <div>
+        <img class="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                alt="Google image">
+    </div>
+    <div class="searchbar">
+        <input type="text">
+    </div> 
+    <form id="buttons">
+        <button style="margin-right:5px">Google Search</button>
+        <button style="margin-left:5px">I'm Feeling Lucky</button>
+    </form>
 </body>
+<footer>
+    <ul class="footer">
+        <li><a href="#Advertising">Advertising</a></li>
+        <li><a href="#Business">Business</a></li>
+        <li><a href="#HowSearchWorks">How Search works</a></li>
+        <li style="float:right"><a href="#Settings">Settings</a></li>
+        <li style="float:right"><a href="#Terms">Terms</a></li>
+        <li style="float:right"><a href="#Privacy">Privacy</a></li></li>
+    </ul>  
+
+</footer>
